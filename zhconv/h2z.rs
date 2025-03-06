@@ -5,6 +5,7 @@ mod tables {
         pub KANA_HANKAKU_CHARS: Vec<char>,
         pub KANA_ZENKAKU_CHARS: Vec<char>,
         pub DIGIT_HANKAKU_CHARS: Vec<char>,
+        pub DIGIT_ZENKAKU_CHARS: Vec<char>,
         pub KANA_TEN_MAP: std::collections::HashMap<char, char>,
         pub KANA_MARU_MAP: std::collections::HashMap<char, char>,
     }
@@ -18,6 +19,7 @@ mod tables {
                 KANA_HANKAKU_CHARS: vec![],
                 KANA_ZENKAKU_CHARS: vec![],
                 DIGIT_HANKAKU_CHARS: vec![],
+                DIGIT_ZENKAKU_CHARS: vec![],
                 KANA_TEN_MAP: std::collections::HashMap::new(),
                 KANA_MARU_MAP: std::collections::HashMap::new(),
             }

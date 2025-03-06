@@ -41,8 +41,3 @@ impl ConversionTables {
         }
     }
 }
-
-fn main() {
-    let conversion_tables = ConversionTables::new();
-    // Use the conversion tables as needed
-}
